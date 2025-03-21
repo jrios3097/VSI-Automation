@@ -1,0 +1,146 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ALcxeyrRG4zwpDHutypm_PSGZGxEJw1rbOv5TJQCpp8hLRot81IxZk2LeOFAduc_CBDqNyO_10pIBd8gKTrE9-E",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1758053686.897541,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "3B606B53856C01A519CE9FDCD534FD69.tomcat-vs",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "vs",
+      "value": "b8352a8f-047e-44c9-826e-a0312ace94e0",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": 1774037685,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "vssite",
+      "value": "%5B%7B%22lng%22%3A%220.0%22%2C%22lat%22%3A%220.0%22%2C%22sid%22%3A%2240000860%22%2C%22ts%22%3A1742501685862%7D%5D",
+      "domain": ".international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": 1774037685,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "screen_height",
+      "value": "720",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "screen_width",
+      "value": "1280",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gTagIdSegment",
+      "value": "G-100MFX9RTD",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DWRSESSIONID",
+      "value": "SpyIznjXMoOTin6UL2UdDPjjp8!XyswcRmp",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "value": "ac9af9c8-bd32-31d6-9363-dcfed8798058",
+      "domain": ".vetsource.dev",
+      "path": "/",
+      "expires": 1774037686,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "loggedIn",
+      "value": "true",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rm",
+      "value": "8182bdc7-aa58-4dc9-a836-418fd31f04e9",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": 1774037687.634796,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://cavca.international.devstack.vetsource.dev",
+      "localStorage": [
+        {
+          "name": "_grecaptcha",
+          "value": "09ALcxeyp-rnD-M-wOAkFYixzSxqdDLPg6-cHf2fVcmrzicYLTH62lfpBuGgDFVmwKqzt8cS00OC9V59ltI99Ajp6YzKJqvFD-GIqr4e6p-at1TpVmqA_tR50BxDUAtnSe"
+        },
+        {
+          "name": "ajs_anonymous_id",
+          "value": "\"ac9af9c8-bd32-31d6-9363-dcfed8798058\""
+        },
+        {
+          "name": "ajs_user_id",
+          "value": "null"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MXlpa294dWlram1mdw=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAPXuMGzwuRHf33ig8drtXIZ4_NtsUF7huPlq3pjvTZPGezFWP0oYHmABSCONjh9j11Mh66M"
+        }
+      ]
+    }
+  ]
+}

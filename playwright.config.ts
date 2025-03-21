@@ -14,9 +14,9 @@ dotenv.config();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: "./Web/tests",
+  testDir: "./web/tests",
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -26,30 +26,47 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: "html",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  timeout: 3000 * 1000,
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: "on-first-retry",
+    viewport: { width: 1536, height: 816 },
+    trace: "retain-on-failure",
+    headless: false,
   },
 
   /* Configure projects for major browsers */
   projects: [
+    // {
+    //   name: "chromium",
+    //   use: { ...devices["Desktop Chrome"] },
+    // },
+
     {
-      name: "chromium",
+      name: "vsica-setup",
       use: { ...devices["Desktop Chrome"] },
+      testMatch: ["vsica.setup.ts"],
+    },
+    {
+      name: "vsica-chrome-project",
+      use: {
+        ...devices["Desktop Chrome"],
+        storageState: "web/playwright/.auth/vsica-storageState.json",
+      },
+      dependencies: ["vsica-setup"],
     },
 
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
-    },
+    // {
+    //   name: "firefox",
+    //   use: { ...devices["Desktop Firefox"] },
+    // },
 
-    {
-      name: "webkit",
-      use: { ...devices["Desktop Safari"] },
-    },
+    // {
+    //   name: "webkit",
+    //   use: { ...devices["Desktop Safari"] },
+    // },
 
     /* Test against mobile viewports. */
     // {
