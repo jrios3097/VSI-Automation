@@ -11,7 +11,7 @@ test.describe("Vetsource international Canada", () => {
       await page.goto(process.env.VSIHome!);
       const checkoutPage = await new CheckoutVSICA(page);
       await checkoutPage.addToCart();
-      await page.pause();
+      
     }
   );
 });
