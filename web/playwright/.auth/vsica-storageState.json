@@ -2,17 +2,37 @@
   "cookies": [
     {
       "name": "_GRECAPTCHA",
-      "value": "09ALcxeyri1XLVYP3_VJtX-N4pTKOjyAKxpHOI2mx7El3GMRgZMJ4t-DK1C0IPpODWsPfk5BAsIOy6wC5F5ywTsUc",
+      "value": "09ALcxeyopqti9qPuxsjm2FjC9UT2hhqemQja1v8ab9cj2zhdxPPCL3eXc5nbnWjNktnftgCJMRYXSA3oAKIJvQ5o",
       "domain": "www.google.com",
       "path": "/recaptcha",
-      "expires": 1758470670.884563,
+      "expires": 1759955614.424132,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
+      "name": "screen_height",
+      "value": "720",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/site/view",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "screen_width",
+      "value": "1280",
+      "domain": "cavca.international.devstack.vetsource.dev",
+      "path": "/site/view",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "JSESSIONID",
-      "value": "056F9E22D07FD7CE4DFC105BB8E9A473.tomcat-vs",
+      "value": "25D4599943BB43A2354BFAB6F4BE2B03.tomcat-vs",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
       "expires": -1,
@@ -22,7 +42,7 @@
     },
     {
       "name": "DWRSESSIONID",
-      "value": "vWgebf08dqEMMNhq!8~qH2ht!nSh25b4enp",
+      "value": "lrayS08TyMQh22Wp1oDys~ZkSlgofyOzCop",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
       "expires": -1,
@@ -32,22 +52,22 @@
     },
     {
       "name": "vs",
-      "value": "04e2dbb9-9a75-4662-b6cb-5caa6795aeb8",
+      "value": "55648a0c-2a91-480b-ae81-24eb99e62a15",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
-      "expires": 1774454669,
+      "expires": 1775939613,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "vssite",
-      "value": "%5B%7B%22lng%22%3A%220.0%22%2C%22lat%22%3A%220.0%22%2C%22sid%22%3A%2240000860%22%2C%22ts%22%3A1742918669856%7D%5D",
-      "domain": ".international.devstack.vetsource.dev",
+      "name": "gTagIdSegment",
+      "value": "G-100MFX9RTD",
+      "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
-      "expires": 1774454669,
+      "expires": -1,
       "httpOnly": false,
-      "secure": false,
+      "secure": true,
       "sameSite": "Lax"
     },
     {
@@ -71,21 +91,11 @@
       "sameSite": "Lax"
     },
     {
-      "name": "gTagIdSegment",
-      "value": "G-100MFX9RTD",
-      "domain": "cavca.international.devstack.vetsource.dev",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "ajs_anonymous_id",
-      "value": "dbd98ff2-f8aa-364d-a624-f7f9eae9ea1d",
+      "value": "15d2c8d8-d061-3440-a780-9da5b064b64a",
       "domain": ".vetsource.dev",
       "path": "/",
-      "expires": 1774454670,
+      "expires": 1775939613,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -102,12 +112,22 @@
     },
     {
       "name": "rm",
-      "value": "af12a924-af28-4bbe-8b73-58cd0652fa70",
+      "value": "4bd4eecc-aed3-4e6b-8ca2-e85b99830b1a",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
-      "expires": 1774454672.130223,
+      "expires": 1775939616.051342,
       "httpOnly": false,
       "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "vssite",
+      "value": "%5B%7B%22lng%22%3A%220.0%22%2C%22lat%22%3A%220.0%22%2C%22sid%22%3A%2240000860%22%2C%22ts%22%3A1744403617507%7D%5D",
+      "domain": ".international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": 1775939617,
+      "httpOnly": false,
+      "secure": false,
       "sameSite": "Lax"
     }
   ],
@@ -117,11 +137,11 @@
       "localStorage": [
         {
           "name": "_grecaptcha",
-          "value": "09ALcxeyrJFMSCvoEO5wNA8JBj7_erZ-_0yDM_1Kaab8PXt3On487XGTki536imiT9q7gArikbnnAk777yGhUSFNyuHhPe9DSGQGoN1TyGrL1yi3rno1EkV0Go9UrLeJBD"
+          "value": "09ALcxeyqh2kaySWxQV4ZbQLelZKuEco43Vj_XzhDp4fk9SPOVfygfUH6uQx-Y-vNT4CI2V8y9P-ut_oc_svKJyop8SvE5S9x8pxQMtMySWFZv-WmZ9s5YROBCwpH30c0b"
         },
         {
           "name": "ajs_anonymous_id",
-          "value": "\"dbd98ff2-f8aa-364d-a624-f7f9eae9ea1d\""
+          "value": "\"15d2c8d8-d061-3440-a780-9da5b064b64a\""
         },
         {
           "name": "ajs_user_id",
@@ -134,11 +154,11 @@
       "localStorage": [
         {
           "name": "rc::a",
-          "value": "MW5xc2ZpN3luNzNvaQ=="
+          "value": "MWFsNnI0bjF2aWs5aGs="
         },
         {
           "name": "rc::f",
-          "value": "0aAPX_t5kCEWmKLKcGe29ki4G9ww0L-E7UUEDK5MRMLaAjsN-1i9WCnvBkXPk-Lq85iSdEhTo"
+          "value": "0aAHCamav4bmTRwEfh0JVnEmkD8Mq6OSYQEF9xjSqLAQkxEZhL1phsyySbneRBBS2acdeGfIc"
         }
       ]
     }
