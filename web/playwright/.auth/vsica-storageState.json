@@ -2,37 +2,17 @@
   "cookies": [
     {
       "name": "_GRECAPTCHA",
-      "value": "09ALcxeyopqti9qPuxsjm2FjC9UT2hhqemQja1v8ab9cj2zhdxPPCL3eXc5nbnWjNktnftgCJMRYXSA3oAKIJvQ5o",
+      "value": "09ALcxeypYas3DvOER3vr4LUdKera7WCxSav4q9T8lIg8wXDKBpZ9k77rhbgGtryNgtbN2EAKZAtnBJ6mzTOzssjY",
       "domain": "www.google.com",
       "path": "/recaptcha",
-      "expires": 1759955614.424132,
+      "expires": 1760194033.304729,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
-      "name": "screen_height",
-      "value": "720",
-      "domain": "cavca.international.devstack.vetsource.dev",
-      "path": "/site/view",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "screen_width",
-      "value": "1280",
-      "domain": "cavca.international.devstack.vetsource.dev",
-      "path": "/site/view",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "JSESSIONID",
-      "value": "25D4599943BB43A2354BFAB6F4BE2B03.tomcat-vs",
+      "value": "13CA14095C2B3DE7854EBCF3EA44BE21.tomcat-vs",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
       "expires": -1,
@@ -42,7 +22,7 @@
     },
     {
       "name": "DWRSESSIONID",
-      "value": "lrayS08TyMQh22Wp1oDys~ZkSlgofyOzCop",
+      "value": "7~8w7qvsXofyAdGiLPL7ZJ!Mlh4RJgiNQop",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
       "expires": -1,
@@ -52,10 +32,10 @@
     },
     {
       "name": "vs",
-      "value": "55648a0c-2a91-480b-ae81-24eb99e62a15",
+      "value": "d3fdbce0-36fa-444d-8abe-ca8bf3ac453e",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
-      "expires": 1775939613,
+      "expires": 1776178032,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -71,6 +51,26 @@
       "sameSite": "Lax"
     },
     {
+      "name": "ajs_anonymous_id",
+      "value": "91894177-0f12-3ec3-b89d-a15e55b27591",
+      "domain": ".vetsource.dev",
+      "path": "/",
+      "expires": 1776178032,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "vssite",
+      "value": "%5B%7B%22lng%22%3A%220.0%22%2C%22lat%22%3A%220.0%22%2C%22sid%22%3A%2240000860%22%2C%22ts%22%3A1744642032534%7D%5D",
+      "domain": ".international.devstack.vetsource.dev",
+      "path": "/",
+      "expires": 1776178032,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "screen_height",
       "value": "720",
       "domain": "cavca.international.devstack.vetsource.dev",
@@ -86,16 +86,6 @@
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
       "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "ajs_anonymous_id",
-      "value": "15d2c8d8-d061-3440-a780-9da5b064b64a",
-      "domain": ".vetsource.dev",
-      "path": "/",
-      "expires": 1775939613,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -112,22 +102,12 @@
     },
     {
       "name": "rm",
-      "value": "4bd4eecc-aed3-4e6b-8ca2-e85b99830b1a",
+      "value": "d1da17a7-ba82-4b41-b1e7-f482de620d24",
       "domain": "cavca.international.devstack.vetsource.dev",
       "path": "/",
-      "expires": 1775939616.051342,
+      "expires": 1776178034.439886,
       "httpOnly": false,
       "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "vssite",
-      "value": "%5B%7B%22lng%22%3A%220.0%22%2C%22lat%22%3A%220.0%22%2C%22sid%22%3A%2240000860%22%2C%22ts%22%3A1744403617507%7D%5D",
-      "domain": ".international.devstack.vetsource.dev",
-      "path": "/",
-      "expires": 1775939617,
-      "httpOnly": false,
-      "secure": false,
       "sameSite": "Lax"
     }
   ],
@@ -137,11 +117,11 @@
       "localStorage": [
         {
           "name": "_grecaptcha",
-          "value": "09ALcxeyqh2kaySWxQV4ZbQLelZKuEco43Vj_XzhDp4fk9SPOVfygfUH6uQx-Y-vNT4CI2V8y9P-ut_oc_svKJyop8SvE5S9x8pxQMtMySWFZv-WmZ9s5YROBCwpH30c0b"
+          "value": "09ALcxeyrXywXWMKCHixcQzbcsrL7zXhBxfaBDxHzm1mT4h6pLA5imHn9wlizaXMEQuiwAqTf9V8hy99n55Qj7epFHd7Orj0sn_iYQ8JrwmXXqew96A7CcKK4NG8E2kkmI"
         },
         {
           "name": "ajs_anonymous_id",
-          "value": "\"15d2c8d8-d061-3440-a780-9da5b064b64a\""
+          "value": "\"91894177-0f12-3ec3-b89d-a15e55b27591\""
         },
         {
           "name": "ajs_user_id",
@@ -154,11 +134,11 @@
       "localStorage": [
         {
           "name": "rc::a",
-          "value": "MWFsNnI0bjF2aWs5aGs="
+          "value": "MXh4bXltYzFhZWc2NGw="
         },
         {
           "name": "rc::f",
-          "value": "0aAHCamav4bmTRwEfh0JVnEmkD8Mq6OSYQEF9xjSqLAQkxEZhL1phsyySbneRBBS2acdeGfIc"
+          "value": "0aAOmhv5JEZHxUfvuof0DNviFDhS0UTG1rxA2AukHdMdoHwBTn7oVy7W1HZqRxP-Ql3N5Gsyc"
         }
       ]
     }
