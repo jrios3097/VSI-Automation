@@ -9,13 +9,7 @@ test.describe("Vetsource international Canada", () => {
       tag: "@vsica",
     },
     async ({ page }) => {
-      // await page.goto(process.env.VSIHome!);
-      await page.goto(
-        "https://cavca.international.devstack.vetsource.dev/shoppingCartView.pml"
-      );
-      await page.pause();
-      const checkoutPage = await new CheckoutVSICA(page);
-      await checkoutPage.cleanCart();
+
     }
   );
   test(
@@ -27,6 +21,7 @@ test.describe("Vetsource international Canada", () => {
       await page.goto(process.env.VSIHome!);
       const checkoutPage = await new CheckoutVSICA(page);
       const cartPage = await new CartVSICA(page);
+      await cartPage.cleanCart();
       await cartPage.goToProducts();
       const product = process.env.nonRXProduct!;
       await cartPage.searchProduct(product);
@@ -44,6 +39,7 @@ test.describe("Vetsource international Canada", () => {
       const checkoutPage = await new CheckoutVSICA(page);
       const cartPage = await new CartVSICA(page);
       await cartPage.goToProducts();
+      await cartPage.cleanCart();
       const product = process.env.RXProduct!;
       await cartPage.searchProduct(product);
       await checkoutPage.goToCheckout();

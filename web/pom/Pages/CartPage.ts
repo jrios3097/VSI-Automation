@@ -9,6 +9,7 @@ export class CartVSICA {
   viewCartBtn: Locator;
   productElement: Locator;
   cartTitle: Locator;
+  removeItem: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -24,6 +25,7 @@ export class CartVSICA {
     this.viewCartBtn = page.getByRole("button", { name: "View Cart" });
     this.productElement = page.locator(".productBrowseContainer").locator("a");
     this.cartTitle = page.getByRole("heading", { name: "Your Cart" });
+    this.removeItem = page.locator("button[title='remove item']");
   }
 
   async goToProducts() {
@@ -58,5 +60,17 @@ export class CartVSICA {
     await this.viewCartBtn.click();
     await this.page.waitForLoadState("networkidle");
     await this.cartTitle.waitFor({ state: "visible" });
+  }
+
+  async cleanCart() {
+    await this.page.goto(process.env.VSICart!);
+    if (await this.removeItem) {
+      for (let i = await this.removeItem.count(); i > 0; i--) {
+        await this.removeItem.nth(i - 1).click();
+        console.log("Item removido");
+      }
+    } else {
+      return true;
+    }
   }
 }
