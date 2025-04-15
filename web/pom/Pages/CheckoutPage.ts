@@ -47,7 +47,6 @@ export class CheckoutVSICA {
     this.petSelect = page.locator("div.petArea").first().locator("select");
   }
 
-
   async selectPet(petName: String) {
     await this.page.waitForLoadState("networkidle");
     let petDetailsTitle = await this.petDetails;
@@ -84,7 +83,6 @@ export class CheckoutVSICA {
     await this.placeOrderBtn.waitFor({ state: "visible" });
     await this.placeOrderBtn.scrollIntoViewIfNeeded();
     await this.placeOrderBtn.click({ force: true });
-    await this.confirmation.waitFor({ state: "visible" });
   }
 
   async completeCheckout() {
